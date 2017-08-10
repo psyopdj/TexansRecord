@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class GetSchedule {
 
 	public static void main(String[] args) throws FileNotFoundException {
+		System.out.println("Testing fetch");
 		// Create Teams object for each team
 		// Create Teams object for each of the 31 NFL teams that the Texans play against
 		// AFC South

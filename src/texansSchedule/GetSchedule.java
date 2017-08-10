@@ -57,21 +57,15 @@ public class GetSchedule {
 		Teams Seahawks = new Teams();
 				
 		// Scan document and update wins/losses
-		File x = new File("/Users/tyler/Documents/workspace/texansSchedule/texans.txt");
+		File x = new File("/Users/tyler/git/texansSchedule/texans.txt");
 		Scanner sc = new Scanner(x);
 		
 		String line = new String();
 		
-		/*for(int i = 0; i < 247; i++){
-			line = sc.next();
-			String[] result = line.split("[|]");
-			System.out.println(result[0]);
-			System.out.println(result[1]);
-		}*/
-		
 		while (sc.hasNext()){
 			line = sc.next();
 			String[] result = line.split("[|]");
+
 			
 			// AFC South
 			if (result[0].equals("IND")){
